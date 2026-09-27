@@ -128,9 +128,9 @@ funasr_clean\Scripts\activate.bat
 (funasr_clean) D:\funars>python -m  pip install --upgrade pip
 (funasr_clean) D:\funars>pip install torch torchvision torchaudio -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-#(funasr_clean) D:\funars>python -c "import torch; print('PyTorch 版本:', torch.__version__); print('是否可用 CUDA:', torch.cuda.is_available())"
-PyTorch 版本: 2.14.0+cpu
-是否可用 CUDA: False
+(funasr_clean) D:\funars>python -c "import torch; print('PyTorch 版本:', torch.__version__); print('是否可用 CUDA:', torch.cuda.is_available())"
+#PyTorch 版本: 2.14.0+cpu
+#是否可用 CUDA: False
 
 #安装requirement.txt列出的依赖包，
 (funasr_clean) D:\funars>pip install -r requirements.txt
